@@ -5,16 +5,16 @@ import {Text} from 'react-native';
     <>
       <Text>Hellow world</Text>
       <Text>IFAL</Text>
-      <Gato/>
-      <Gato/>
-      <Gato/>
+      <Gato nome="Robert" idade={19}/>
+      <Gato nome="Marie" idade={4}/>
+      <Gato nome="Holnstons" idade={7}/>
     </>
   );
 }
 
-const Gato = () => {
+const Gato = ({nome,idade}) => {
   return (
-      <Text>Gatos</Text>
+      <Text>Eu sou um Gato. E Meu nome é {nome.toUpperCase()}, e eu tenho {idade} anos.</Text>
   )
 }
 
