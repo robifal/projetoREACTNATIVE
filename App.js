@@ -13,8 +13,10 @@ import {Text} from 'react-native';
 }
 
 const Gato = ({nome,idade}) => {
+
+
   return (
-      <Text>Eu sou um Gato. E Meu nome é {nome.toUpperCase()}, e eu tenho {idade} anos.</Text>
+      <Text>Eu sou um Gato. E Meu nome é {nome.toUpperCase()} e eu tenho {idade} {idade === 1 ? " ano" : " anos"}.</Text>
   )
 }
 
