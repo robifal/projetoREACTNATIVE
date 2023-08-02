@@ -1,20 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {Text} from 'react-native';
 
-export default function App() {
+ function Meuapp() {
   return (
-    <View style={styles.container}>
-      <Text>Ok!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <Text>Hellow world</Text>
+      <Text>IFAL</Text>
+    </>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default Meuapp;
+
